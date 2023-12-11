@@ -1,2 +1,19 @@
+/*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*icons*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+/*CSS*/
+:root {
+    --caqui: #ab854c;
+    --caqui1: #d1a25d;
+    --caqui2: #775d35;
+    --beige: #f6ece0;
+    --beige: #b6b6b6;
+    --dorado: #ccaa35;
+}
+
+html{
+    margin: 0;
+}
