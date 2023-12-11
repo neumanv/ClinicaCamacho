@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clínica Camacho</title>
     @vite(['resources/css/app.scss', 'resources/js/app.js', 'resources/css/custom.css'])
+    <link rel="icon" type="image/jpg" href="{{ URL::asset('favicon.ico') }}" />
     <script defer src="{{ URL::asset('assets/js/custom.js') }}"></script>
 </head>
 <body>

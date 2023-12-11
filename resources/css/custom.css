@@ -14,6 +14,6 @@
     --dorado: #ccaa35;
 }
 
-html{
-    margin: 0;
+*{
+    background-color: var(--beige);
 }
