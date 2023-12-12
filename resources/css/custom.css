@@ -1,5 +1,6 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 /*icons*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
@@ -10,10 +11,47 @@
     --caqui1: #d1a25d;
     --caqui2: #775d35;
     --beige: #f6ece0;
-    --beige: #b6b6b6;
+    --beige1: #b6b6b6;
     --dorado: #ccaa35;
+}
+
+.pf-d-normal{
+    font-family: 'Playfair Display', serif;
+}
+
+.rubik{
+    font-family: 'Rubik', sans-serif;
+}
+
+.bg-caqui{
+    background-color: var(--caqui);
+}
+
+.bg-caqui1{
+    background-color: var(--caqui1);
+}
+
+.bg-caqui2{
+    background-color: var(--caqui2);
+}
+
+.bg-beige{
+    background-color: var(--beige);
+}
+
+.bg-beige1{
+    background-color: var(--beige1);
+}
+
+.bg-dorado{
+    background-color: var(--dorado);
 }
 
 *{
     background-color: var(--beige);
+}
+
+.navbar-brand img{
+    height: 7em;
+    width: auto;
 }

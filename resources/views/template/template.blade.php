@@ -11,6 +11,7 @@
     <script defer src="{{ URL::asset('assets/js/custom.js') }}"></script>
 </head>
 <body>
+    @yield('header')
     @yield('footer')
 </body>
 </html>
