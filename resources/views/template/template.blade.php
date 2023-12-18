@@ -10,7 +10,7 @@
     <link rel="icon" type="image/jpg" href="{{ URL::asset('favicon.ico') }}" />
     <script defer src="{{ URL::asset('assets/js/custom.js') }}"></script>
 </head>
-<body>
+<body class="bg-beige">
     @yield('header')
     @yield('index')
     @yield('footer')
