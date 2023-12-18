@@ -12,6 +12,7 @@
 </head>
 <body>
     @yield('header')
+    @yield('index')
     @yield('footer')
 </body>
 </html>

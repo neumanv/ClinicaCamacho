@@ -8,15 +8,18 @@
                 <span class="navbar-toggler-icon bg-caqui2"></span>
             </button>
             <div class="collapse navbar-collapse bg-caqui2" id="navbarTogglerDemo02">
-                <h2><ul class="navbar-nav rubik text-light me-auto mb-2 mb-lg-0">
-                    <li class="nav-item bg-caqui2">
-                        <a class="nav-link text-light">Home</a>
+                <h2><ul class="navbar-nav rubik me-auto mb-2 mb-lg-0">
+                    <li class="nav-item bg-caqui2 underline-btn">
+                        <a href="{{ route('index') }}" id="letra-menu" class="nav-link">Inicio</a>
                     </li>
-                    <li class="nav-item bg-caqui2">
-                        <a class="nav-link text-light">Link</a>
+                    <li class="nav-item bg-caqui2 underline-btn">
+                        <a id="letra-menu" class="nav-link">Clínica</a>
                     </li>
-                    <li class="nav-item bg-caqui2">
-                        <a class="nav-link text-light">Disabled</a>
+                    <li class="nav-item bg-caqui2 underline-btn">
+                        <a id="letra-menu" class="nav-link">Procedimientos</a>
+                    </li>
+                    <li class="nav-item bg-caqui2 underline-btn">
+                        <a href="{{ route('redes') }}" id="letra-menu" class="nav-link">Redes y contacto</a>
                     </li>
                 </ul></h2>
             </div>
