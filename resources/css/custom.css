@@ -69,8 +69,6 @@
     padding-right: 2em;
 }
 
-/*REDES*/
-
 *:focus,
 *:active {
     outline: none !important;
@@ -164,6 +162,12 @@
 .wrapper .wasa:hover .tooltip::before {
     background: #00911f;
     color: #ffffff;
+}
+
+/*CONTACTO*/
+
+.contacto-izq{
+    
 }
 
 /*TAMAÑO*/

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,7 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/contacto', function () {
-    return view('contacto');
+Route::get('/contacto',  function () {
+    $clinicas = DB::table('clinicas')->get();
+    return view('contacto', ['clinicas' => $clinicas]);
 })->name('contacto');
