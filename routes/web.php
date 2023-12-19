@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/redes', function () {
-    return view('redes');
-})->name('redes');
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
